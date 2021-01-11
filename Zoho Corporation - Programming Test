@@ -1,16 +1,13 @@
-public class Pattern{
-
-     public static void main(String []args){
-            int Input = 5, i, j, min; 
-    for (i = 1; i <= Input; i++)  
-    { 
-        for (j = 1; j <= Input; j++)  
-        { 
+import java.util.*;
+class Pattern{
+public static void main(String []args){
+    int Input = 5, i, j, min; 
+    for (i = 1; i <= Input; i++){
+        for (j = 1; j <= Input; j++){
             min = i < j ? i : j; 
             System.out.print(Input - min + 1); 
         } 
         System.out.println(); 
     } 
-
-     }
+ }
 }
